@@ -1,11 +1,21 @@
-<div align="center">
+# Agentic PDLC Repository
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Author:** Balaji Duddukuri
 
-  <h1>Built with AI Studio</h2>
+This repository implements a 11-stage Agentic Product Development Life Cycle (PDLC).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Quick Start
+1.  Read the [User Guide (Usage)](./USAGE.md)
+2.  Initialize a request: `/pdlc-start "Add export to CSV to reports"`
+3.  Follow the agent prompts for approvals at GATES.
+4.  Monitor progress: `/pdlc-status`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Key Built-ins
+- **Hooks**: Automated guardrails located in [./.github/hooks/](./.github/hooks/)
+- **React Hooks**: UI logic for PDLC in [src/hooks/usePDLC.ts](src/hooks/usePDLC.ts)
 
-</div>
+## Documentation
+- [Agentic PDLC Overview](./agentic-pdlc-overview.md)
+- [How to Use](./USAGE.md)
+- [Prompts Library](./prompts/)
+- [Skills Logic](./.github/skills/)
