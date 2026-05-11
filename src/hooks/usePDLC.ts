@@ -17,13 +17,20 @@ export function usePDLC() {
   const [currentStage, setCurrentStage] = useState<number>(0);
   const [status, setStatus] = useState<PDLCStatus>(PDLCStatus.IDLE);
   const [history, setHistory] = useState<string[]>([]);
+  const [logs, setLogs] = useState<{ msg: string; type: 'info' | 'success' | 'warn' | 'error' }[]>([]);
+
+  const addLog = useCallback((msg: string, type: 'info' | 'success' | 'warn' | 'error' = 'info') => {
+    setLogs(prev => [...prev, { msg, type }].slice(-50));
+  }, []);
 
   const startPipeline = useCallback((request: string) => {
+    setLogs([]);
     setStatus(PDLCStatus.RUNNING);
     setCurrentStage(1);
     setHistory([`Started: ${request}`]);
-    // Logic to trigger real agent would go here
-  }, []);
+    addLog(`INITIATING PDLC FOR REQUEST: "${request}"`, 'info');
+    addLog(`Authorizing Agent: Balaji Duddukuri`, 'success');
+  }, [addLog]);
 
   const approveGate = useCallback(() => {
     if (status === PDLCStatus.WAITING_FOR_GATE) {
@@ -47,9 +54,11 @@ export function usePDLC() {
     currentStage,
     status,
     history,
+    logs,
     startPipeline,
     approveGate,
     advanceStage,
-    setCurrentStage
+    setCurrentStage,
+    addLog
   };
 }

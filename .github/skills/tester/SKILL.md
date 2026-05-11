@@ -22,11 +22,10 @@ failure_modes:
 Verify that the code works as expected and doesn't break existing functionality.
 
 # Step-by-step procedure
-1. Identify code paths modified.
-2. Write unit tests for logic.
-3. Write integration tests for UI/DB interactions.
-4. Run tests and capture logs.
-5. Create `test-results.md`.
+1. Identify code paths.
+2. Write unit/integration tests.
+3. Run tests & log results.
+4. Create `test-results.md`.
 
 # Constraints
 - Must produce both test definitions and actual results.

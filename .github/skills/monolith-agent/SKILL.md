@@ -22,16 +22,14 @@ failure_modes:
 To act as a single, high-context agent that executes the entire PDLC pipeline autonomously, pausing only for critical human gates.
 
 # Step-by-step procedure
-1. **Initialize**: Read requirements and generate `requirements.md` and `plan.md`.
-2. **Design**: Generate `design.md` and perform self-critique (`critique.md`).
-3. **🛑 GATE 1**: Present design and critique to human for approval.
-4. **Build**: Execute approved design into code. Run `npm run lint`.
-5. **Test**: Generate and run unit/integration tests.
-6. **Audit**: Sanity check code quality and security.
-7. **Fix**: Auto-resolve any linter or test failures.
-8. **Validate**: Map functional scenarios and confirm behavior in preview.
-9. **🛑 GATE 2**: Show functional validation results to human.
-10. **Ship**: Generate the PR with the consolidated history.
+1. Requirements & Plan.
+2. Design & Critique.
+3. 🛑 GATE 1: Design.
+4. Build & Test.
+5. Audit & Fix.
+6. Validate Journey.
+7. 🛑 GATE 2: Validation.
+8. Ship.
 
 # Constraints
 - You MUST still produce all individual artifacts (requirements, plan, design, etc.).

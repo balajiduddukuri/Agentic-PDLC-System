@@ -22,11 +22,11 @@ failure_modes:
 Package the entire development lifecycle into a high-quality Pull Request.
 
 # Step-by-step procedure
-1. Review all artifacts from Stage 1 to 10.
-2. Summarize changes and risks.
-3. Consolidate test evidence.
-4. Draft the PR using the standard template.
-5. Notify the human owner.
+1. Review all artifacts.
+2. Summarize changes/risks.
+3. Consolidate evidence.
+4. Draft PR with template.
+5. Notify human owner.
 
 # Constraints
 - Must include Jira ID, risk summary, and test evidence.

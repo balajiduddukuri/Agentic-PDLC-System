@@ -1,6 +1,6 @@
 {
-  "name": "Agentic PDLC System",
-  "description": "An autonomous 11-stage Product Development Life Cycle system for agents.",
+  "name": "Agentic PDLC system",
+  "description": "Industrial-grade autonomous pipeline with 11 specialized agent stages, live log monitoring, and token-optimized context handoffs.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }

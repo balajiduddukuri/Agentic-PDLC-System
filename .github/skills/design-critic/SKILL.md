@@ -22,11 +22,11 @@ failure_modes:
 Verify the design against reliability, security, and scalability standards before coding begins.
 
 # Step-by-step procedure
-1. Review architecture artifact.
-2. Run "Red Team" against security assumptions.
-3. Check for "Update Gaps" in DB rules.
+1. Audit design vs requirements.
+2. Security & Red Team check.
+3. Check for state/logic gaps.
 4. Produce `critique.md`.
-5. 🛑 Request human approval before passing to Builder.
+5. 🛑 Human approval gate.
 
 # Constraints
 - Must include a "What could go wrong?" section.

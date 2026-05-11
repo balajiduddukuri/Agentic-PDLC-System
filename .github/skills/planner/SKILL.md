@@ -22,11 +22,10 @@ failure_modes:
 Create a step-by-step technical execution strategy that minimizes risk and maximizes developer efficiency.
 
 # Step-by-step procedure
-1. Review requirements artifact.
-2. Breakdown into logical implementation chunks.
-3. Identify library/external dependency needs.
-4. Estimate complexity per step.
-5. Create `plan.md` artifact.
+1. Review requirements.
+2. Breakdown into logical chunks.
+3. Identify dependencies.
+4. Create `plan.md`.
 
 # Constraints
 - Do not write code.

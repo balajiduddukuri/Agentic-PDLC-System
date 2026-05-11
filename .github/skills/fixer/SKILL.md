@@ -22,11 +22,11 @@ failure_modes:
 Resolve issues identified by the Tester or Critic/Verifier to reach the "Definition of Done."
 
 # Step-by-step procedure
-1. Analyze reported issues.
+1. Analyze issues.
 2. Apply fixes/refactors.
 3. Verify fixes locally.
 4. Update `fix-report.md`.
-5. Trigger `Tester` for verification.
+5. Trigger `Tester`.
 
 # Constraints
 - Do not introduce unrelated changes.

@@ -22,9 +22,9 @@ failure_modes:
 Perform a deep-dive audit of the code and tests to ensure long-term maintainability and security.
 
 # Step-by-step procedure
-1. Review code and tests against standards.
-2. Evaluate SOLID, DRY, and naming conventions.
-3. Check error handling robustness.
+1. Review code/tests vs standards.
+2. Evaluate SOLID, DRY, naming.
+3. Check error handling.
 4. Produce `audit.md`.
 
 # Constraints

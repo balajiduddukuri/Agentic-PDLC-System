@@ -23,12 +23,11 @@ failure_modes:
 Analyze the user's request to extract core functional requirements and constraints, ensuring a clear "Definition of Ready."
 
 # Step-by-step procedure
-1. Identify the primary persona and goal.
-2. Extract functional requirements (MVP).
-3. Identify technical constraints (e.g., existing stack).
-4. Assign a Jira ID.
-5. Create `requirements.md` artifact.
-6. Validate requirements with the user.
+1. Identify goal/persona.
+2. Extract MVP requirements.
+3. Define Jira ID & Success criteria.
+4. Create `requirements.md`.
+5. User sign-off.
 
 # Constraints
 - Do not assume UI details.

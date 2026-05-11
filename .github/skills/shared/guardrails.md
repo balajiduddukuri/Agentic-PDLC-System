@@ -20,6 +20,8 @@ These checks must run before: Builder, Tester, Fixer, PR Generator.
 - **Jira Validation**:
   - Ensure `JIRA-ID` exists in the local context.
   - Reject progress if current branch or artifact lacks the ID.
+- **Token Check**:
+  - Ensure handoffs do not exceed 500 words. Refactor if they do.
 
 ## On Violation
 1. Stop all execution.

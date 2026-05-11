@@ -22,10 +22,11 @@ failure_modes:
 Define the technical blueprint including data structures, API endpoints, and component trees.
 
 # Step-by-step procedure
-1. Map data models to Firestore/SQL schema.
-2. Define React component structure.
-3. Specify API endpoint request/response shapes.
-4. Create `design.md` artifact with mermaid diagrams.
+1. Map models/schema.
+2. Define component hierarchy.
+3. Specify API shapes.
+4. Create Architecture Decision Records (ADR) for non-trivial choices.
+5. Create `design.md` with diagrams.
 
 # Constraints
 - Always use Tailwind for styling specs.

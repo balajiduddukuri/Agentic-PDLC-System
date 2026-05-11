@@ -23,8 +23,8 @@ Define the high-level functional validation scenarios from the user's perspectiv
 
 # Step-by-step procedure
 1. Review requirements.
-2. Write Gherkin-style scenarios (Given/When/Then).
-3. Define "Happy Path" and "Edge Case" paths.
+2. Write Gherkin scenarios.
+3. Define happy/edge paths.
 4. Create `functional-spec.md`.
 
 # Constraints

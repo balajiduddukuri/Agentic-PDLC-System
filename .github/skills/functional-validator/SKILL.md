@@ -22,11 +22,11 @@ failure_modes:
 Ensure the application behaves exactly as requested by the user in a simulated production environment.
 
 # Step-by-step procedure
-1. Execute functional scenarios manually or via automation.
-2. Capture evidence for each step.
-3. Validate against the "Success Criteria" in Stage 1.
+1. Execute scenarios.
+2. Capture evidence.
+3. Validate vs Success Criteria.
 4. Produce `validation-report.md`.
-5. 🛑 Request final human approval.
+5. 🛑 Final human approval.
 
 # Constraints
 - Do not pass if any UI glitch is found, even if minor.

@@ -22,11 +22,10 @@ failure_modes:
 Implement the approved design using clean, maintainable, and idiomatic code.
 
 # Step-by-step procedure
-1. Initialize feature branch.
-2. Add necessary environment variables to `.env.example`.
-3. Implement data models and services.
-4. Implement UI components.
-5. Run `npm run lint`.
+1. Branch from main.
+2. Setup `.env.example`.
+3. Impl models, services, UI.
+4. Run `npm run lint`.
 
 # Constraints
 - Must only implement the approved design.

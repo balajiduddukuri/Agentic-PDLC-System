@@ -12,12 +12,14 @@ To transform high-level feature requests into production-ready code through a st
 - **Traceability**: Every stage MUST read the previous stage's handoff artifact and write a new artifact.
 - **Validation**: No stage can skip its defined validation steps.
 - **Jira**: All work must be linked to a Jira Ticket ID.
+- **Token Optimization**: Use the minimalist handoff pattern and stage-only context to minimize token usage.
 
 ## Stage Registry & Routing
 Work flow:
 1.  **Problem Decomposer** (WHAT)
 2.  **Planner** (PLAN)
 3.  **Design Architect** (HOW)
+    - 📄 **Artifact**: Create `design.md` AND any required `docs/adr/NNNN-title.md` files.
 4.  **Design Critic** (CHALLENGE)
     - 🛑 **GATE**: Human Approval Required
 5.  **Builder** (MAKE)
